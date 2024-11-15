@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<sub-flow name="pots-usuarios-login-orchestratorSub_Flow" doc:id="eac2d62a-3369-4e74-8163-f8eb7ba06e66" >
+		<logger level="INFO" doc:name="Logger" doc:id="a374353a-5c25-464e-90c9-5686c83a7ce4" message="#[vars.data] " />
+	</sub-flow>
+</mule>

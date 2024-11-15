@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<sub-flow name="post-usuarios-login-handlerSub_Flow" doc:id="62dc3725-3fb0-4b2c-ab76-bdf3b828fe2b" >
+		<set-variable value="#[payload]" doc:name="Set Variable" doc:id="26f594dd-e3a8-4ae5-9132-c7694c0a75e7" variableName="data"/>
+		<flow-ref doc:name="Go To Orch" doc:id="a0100c59-bbee-42da-9bbb-5756c911a780" name="pots-usuarios-login-orchestratorSub_Flow"/>
+	</sub-flow>
+</mule>

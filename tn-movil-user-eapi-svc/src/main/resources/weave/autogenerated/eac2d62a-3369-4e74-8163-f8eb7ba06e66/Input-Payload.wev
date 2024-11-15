@@ -1,0 +1,8 @@
+%dw 2.0
+
+type auto_eac2d62a_3369_4e74_8163_f8eb7ba06e66_Input_Payload = {
+  user_id: Number, 
+  usuario: String, 
+  _?: Any
+}
+
